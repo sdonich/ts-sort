@@ -1,10 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sorter = /** @class */ (function () {
-    // collection: NumberCollection;
     function Sorter(collection) {
         this.collection = collection;
-        // this.collection = new NumberCollection();
     }
     Sorter.prototype.sort = function () {
         var length = this.collection.length;

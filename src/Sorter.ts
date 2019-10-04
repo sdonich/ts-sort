@@ -1,10 +1,10 @@
 import { NumberCollection } from "./NumbersCollection";
 
 export class Sorter {
-  // collection: NumberCollection;
+  collection: NumberCollection;
 
-  constructor(public collection: NumberCollection) {
-    // this.collection = new NumberCollection();
+  constructor(collection: NumberCollection) {
+    this.collection = collection;
   }
 
   sort(): void {
